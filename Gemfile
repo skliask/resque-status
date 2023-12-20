@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'resque', '~>1.19'
+gem 'resque', '~>2.6'
 
 group :test do
   gem 'mocha', '~>0.9'
@@ -8,5 +8,5 @@ group :test do
 end
 
 group :development do
-  gem 'jeweler'
+gem 'jeweler', '~> 2.3', '>= 2.3.9'
 end
